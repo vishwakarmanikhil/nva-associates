@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* ----------------------------------
+   Base HTML behavior
+---------------------------------- */
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* ----------------------------------
+   Base element styles
+---------------------------------- */
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.animate-marquee-left {
+  animation: marquee-left 40s linear infinite;
+}
+
+.animate-marquee-right {
+  animation: marquee-right 40s linear infinite;
+}
+
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
