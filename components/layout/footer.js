@@ -50,12 +50,11 @@ export default function Footer() {
             </h4>
             <ul className="mt-4 space-y-4 text-sm text-slate-600 dark:text-slate-400">
               <li className="flex items-center gap-3">
-                <Mail className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                info@nvaassociates.com
+                <a href="mailto:nvaassociates18@gmail.com" className="flex items-center gap-3"><Mail className="h-4 w-4 text-blue-600 dark:text-blue-400" />
+                nvaassociates18@gmail.com</a>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-4 w-4 text-blue-600 dark:text-blue-400" />
-                +91 XXXX XXXXXX
+                <a href="tel:9082024196" className="flex items-center gap-3"><Phone className="h-4 w-4 text-blue-600 dark:text-blue-400" /> +91 90820 24196</a>
               </li>
               <li className="flex items-center gap-3">
                 <MapPin className="h-4 w-4 text-blue-600 dark:text-blue-400" />

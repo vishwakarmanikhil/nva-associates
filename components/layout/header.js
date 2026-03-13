@@ -77,14 +77,14 @@ export default function Header() {
             </a>
 
             {/* CTA */}
-            <button className="
+            <a href="tel:9082024196" className="
               rounded-md bg-blue-600 px-6 py-3
               text-sm font-medium text-white
               shadow-lg shadow-blue-600/20
               hover:bg-blue-700 transition
             ">
               Free Consultation
-            </button>
+            </a>
           </nav>
 
           {/* Mobile Toggle */}

@@ -43,7 +43,7 @@ export default function FinalCTA() {
         {/* Actions */}
         <div className="mt-10 flex gap-2 justify-center">
           <a
-            href="#contact"
+            href="tel:9082024196"
             className="
               rounded-md bg-blue-600 px-8 py-3
               text-sm font-medium text-white

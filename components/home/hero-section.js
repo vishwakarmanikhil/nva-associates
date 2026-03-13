@@ -42,14 +42,14 @@ export default function HeroSection() {
 
             <div className="mt-8 flex flex-wrap gap-4">
               {/* Primary CTA */}
-              <button className="
+              <a href="tel:9082024196" className="
                 rounded-md bg-blue-600 px-6 py-3
                 text-sm font-medium text-white
                 shadow-lg shadow-blue-600/20
                 hover:bg-blue-700 transition
               ">
                 Get Free Consultation
-              </button>
+              </a>
 
               {/* Secondary CTAs */}
               <button className="flex flex-row gap-1
